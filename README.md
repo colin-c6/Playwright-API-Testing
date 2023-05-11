@@ -1,26 +1,43 @@
-# Playwright-API-Testing
-Using Playwright to write API tests for the publically available bookings API https://restful-booker.herokuapp.com/
+# Playwright API Testing
 
-# Installation
+I use Playwright to write API tests for the publicly available bookings API [Restful Booker](https://restful-booker.herokuapp.com/).
 
-* Install Node - https://nodejs.org/en/download/
-* Install git - https://gitforwindows.org/
-* Clone the repository and `cd` into the 'playwright-api-testing' folder
+## Installation
 
-> cd 'playwright-api-testing'
+To get started, follow these steps:
 
-* Install node dependencies
+1. Install Node.js - You can download Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
+2. Install Git - Visit [https://gitforwindows.org/](https://gitforwindows.org/) to install Git.
+3. Clone the repository and navigate to the 'playwright-api-testing' folder:
 
-> npm install
+```shell
+cd playwright-api-testing
+```
 
-# How to Run Tests Locally
-From the 'playwright-api-testing' folder run the below command to execute all tests and view the results in the terminal.
-> npx playwright test
+4. Install the Node.js dependencies:
 
+```shell
+npm install
+```
 
-# Viewing Test Results
-From the 'playwright-api-testing' folder run the below command to view the latest HTML report run:
-> npx playwright show-report
+## How to Run Tests Locally
 
-# Tools & Libaries
+To execute all tests and view the results in the terminal, run the following command from the 'playwright-api-testing' folder:
+
+```shell
+npx playwright test
+```
+
+## Viewing Test Results
+
+To view the latest HTML report, run the following command from the 'playwright-api-testing' folder:
+
+```shell
+npx playwright show-report
+```
+
+## Tools & Libraries
+
+The following tools and libraries are used:
+
 * Playwright
